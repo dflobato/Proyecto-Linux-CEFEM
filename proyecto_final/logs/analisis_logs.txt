@@ -1,0 +1,22 @@
+===== Análisis de logs =====
+Fecha: Tue Apr  1 09:31:31 CEST 2025
+
+Número total de errores: 4
+
+Últimos 5 errores:
+2025-04-01 09:31:31 [ERROR] Evento ERROR generado por admin1
+2025-04-01 09:31:31 [ERROR] Evento ERROR generado por auditor1
+2025-04-01 09:31:31 [ERROR] Evento ERROR generado por auditor1
+2025-04-01 09:31:31 [ERROR] Evento ERROR generado por tecnico1
+
+Tipos de eventos más frecuentes:
+      7 WARNING
+      7 LOGIN
+      7 BACKUP
+      5 INFO
+      4 ERROR
+
+Usuarios con más actividad:
+     11 tecnico1
+     10 admin1
+      9 auditor1

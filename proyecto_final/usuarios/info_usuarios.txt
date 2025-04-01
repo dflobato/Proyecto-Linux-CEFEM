@@ -1,0 +1,20 @@
+Usuarios y Grupos:
+uid=1001(admin1) gid=1003(admin1) groups=1003(admin1),1001(administracion)
+uid=1002(tecnico1) gid=1004(tecnico1) groups=1004(tecnico1),1002(tecnicos)
+uid=1003(auditor1) gid=1005(auditor1) groups=1005(auditor1)
+
+Permisos del directorio /tmp/empresa:
+drwsr-x--- 2 admin1   administracion 4096 Apr  1 09:31 /tmp/empresa/admin
+drwxrwxrwt 2 root     root           4096 Apr  1 09:31 /tmp/empresa/compartido
+drwxr-s--- 2 tecnico1 tecnicos       4096 Apr  1 09:31 /tmp/empresa/tecnicos
+
+ACL del archivo reporte.txt:
+# file: tmp/empresa/tecnicos/reporte.txt
+# owner: tecnico1
+# group: tecnicos
+user::rw-
+user:auditor1:r--
+group::r--
+mask::r--
+other::---
+
