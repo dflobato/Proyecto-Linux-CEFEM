@@ -23,7 +23,7 @@ proyecto_final/
 1. Clonar el repositorio o copiar los archivos a un directorio local:
 
 ```bash
-git clone https://github.com/tuusuario/proyecto_final.git
+git clone https://github.com/dflobato/proyecto_final.git
 cd proyecto_final
 ```
 
