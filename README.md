@@ -102,6 +102,6 @@ Script principal que muestra un menú con opciones para:
 
 ## Autor
 
-- Nombre: [Diego]
+- Nombre: [Diego Franganillo Lobato]
 - Modalidad: [Individual]
 - Curso: Automatización y Administración de Sistemas en Bash (WSL2)
