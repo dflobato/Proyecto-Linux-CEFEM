@@ -17,6 +17,16 @@ proyecto_final/
 ├── usuarios/                 # Carpeta con información de usuarios y permisos
 └── respaldo/                 # Carpeta con backups simulados
 ```
+## Dependencias del Sistema
+
+Este proyecto requiere que el sistema tenga soporte para ACL (Access Control Lists), ya que se utiliza `setfacl` y `getfacl`.
+
+En sistemas basados en Debian/Ubuntu (como WSL2), puedes instalarlo ejecutando:
+
+```bash
+sudo apt update
+sudo apt install acl
+```
 
 ## Cómo Ejecutar el Proyecto
 
