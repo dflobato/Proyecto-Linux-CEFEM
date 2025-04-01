@@ -34,7 +34,7 @@ sudo apt install acl
 
 ```bash
 git clone https://github.com/dflobato/Proyecto-Linux-CEFEM.git
-cd proyecto_final
+cd Proyecto-Linux-CEFEM/proyecto_final
 ```
 
 2. Dar permisos de ejecución:
